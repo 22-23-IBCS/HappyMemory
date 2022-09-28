@@ -122,7 +122,7 @@ def main():
                         else:
                             print("\nHow many cups would you like?")
                             myNumber = input("Please type the number here(choose your number): ")
-                            it_is = True
+                            it_is = isinstance(myNumber, float)
                             while it_is == True:
                                 print("The number is invalid.")
                                 myNumber = input("Please type the number here(choose your number): ")
