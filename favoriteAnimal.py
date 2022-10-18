@@ -1,4 +1,3 @@
-
 class Cat:
 
     def __init__(self, s, col, height, cry):
